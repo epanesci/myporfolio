@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+   <link type="text/css" rel="stylesheet" href="style.css">
+   <title>Emmanuel Panesci</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light text-uppercase fixed-top">
+   <a class="navbar-brand text-white" href="#">Emmanuel Panesci</a>
+   <!-- Collapse button -->
+   <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent1" aria-expanded="false"
+      aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent1" >
+      <ul class="navbar-nav mr-auto">
+         <li class="nav-item" >
+            <a class="nav-link text-white " href="#portfolio">portfolio</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link text-white" href="#acerca">Acerca de mi</a>
+         </li>
+         <li class="nav-item ">
+            <a class="nav-link text-white" href="#contacto">contacto</a>
+         </li>
+      </ul>
+   </div>
+
+</nav>
+
+
+
+   <section class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+         <img class="carita" src="img/carita.jpg" alt="carita">
+         <h1>Emmanuel Panesci</h1>
+         <h4>Desarrollador Web</h4>
+      </div>
+   </section>
+
+
+   <section class="portfolio " id = "portfolio">
+      <div class="container">
+         <h2 class="text-center ">Portfolio</h2>
+         <hr>
+        
+         <div class="row text-center">
+            <div class="col-lg-4 my-3">
+               <a  target="_blank" href="https://yahtzee-argentina.netlify.app/"><img src="img/Generala.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-4 my-3">
+               <a  target="_blank" href="https://basic-chessboard.netlify.app/"><img src="img/chess.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-4 my-3">
+               <a  target="_blank" href="https://github.com/epanesci"><img src="img/github.jpg" alt=""></a>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <section class="jumbotron" id = "acerca">
+      <div class="container text-center">
+         <h2 >Acerca de mi</h2>
+         <hr>
+         <p class="lead w-75 mx-auto ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aspernatur at provident quo laudantium aliquid nemo consequatur esse excepturi velit incidunt magni itaque beatae ullam, placeat sapiente, expedita deserunt maxime.</p>
+
+      </div>
+      
+   </section>
+
+   <section class = "contactame" id = "contacto">
+      <div class = "container">
+         <h2 class="text-center">Contactame</h2>
+         <hr>
+         <form>
+            <div class="form-group">
+               <label for="nombre">Nombre</label>
+               <input type="text" class="form-control" id="nombre" placeholder="nombre">
+            </div>
+            <div class="form-group">
+               <label for="exampleInputEmail1">Email address</label>
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+               
+            </div>
+            <div class="form-group">
+               <label for="nrotelefono">Nro de Telefono</label>
+               <input type="text" class="form-control" id="nrotelefono" placeholder="Nro de telefono">
+            </div>
+            <div class="form-group">
+               <label for="mensaje">Mensaje</label>
+               <textarea class="form-control" id="mensaje" placeholder="Mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+         </form>
+      </div>
+   </section>
+ 
+     
+      <footer class="page-footer font-small blue text-white color">
+         <div class="container  ">
+            <div class="row foot">
+               <div class="col-12 col-sm-6 mb-md-0 mb-3 text-center ">
+                  <h5 class="text-uppercase">Direccion</h5>
+                  <h6>Av. de mayo 255</h6>
+                  <h6>C1084AAA CABA</h6>
+                 
+               </div>
+               <div class="col-12 col-sm-6 mb-md-0 mb-3 redes text-center">
+                  <h5 class="text-uppercase ">En las redes</h5>
+                  <small>
+                  <a href="https://facebook.com/"><i class="fab fa-facebook-f px-2 py-1 text-white" ></i></a>
+                  <a href="https://twitter.com/"><i class="fab fa-twitter px-2 py-1 text-white"></i></a>
+                  <a  target="_blank" href="https://www.linkedin.com/in/emmanuel-panesci-6b22901a0/"><i class="fab fa-linkedin-in px-2 py-1 text-white"></i></a>
+                  <a href="https://ole.com.ar/"><i class="fas fa-palette px-2 py-1 text-white"></i></a>
+                  </small>
+               </div>   
+            </div>
+         </div>
+         <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> tusitioweb</a>
+         </div>
+      </footer>
+   <script src="js/jquery.js"></script>
+   <script src="https://kit.fontawesome.com/2cb209bf8d.js" crossorigin="anonymous"></script>
+   <script src="js/bootstrap.min.js"></script>
+  
+</body>
+</html>
