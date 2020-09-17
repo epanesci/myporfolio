@@ -4,7 +4,6 @@
 }
 .jumbotron {
    margin-bottom: 0px;
-   padding: 100px;
    padding-top: 150px;
 }
 .portfolio {
@@ -18,7 +17,7 @@
 }
 .contactame {
     background-color: orange;
-    padding: 100px 0px;
+    padding: 100px 10px ;
 }
 .redes img {
    height: 50px;
